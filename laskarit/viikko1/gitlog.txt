@@ -1,0 +1,114 @@
+commit 5b8d7326cf01478a5539bd33b3a36afdf75218d8
+Author: Eero Ranta <eeroranta111@gmail.com>
+Date:   Wed Mar 16 16:56:40 2022 +0200
+
+    ok
+
+ tiedostoja/file2.txt                 | 0
+ tiedostoja/{file1.txt => file22.txt} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 30a137930b74cb8bebc6ab5b89ee915a7ddd237e
+Author: Eero Ranta <eeroranta111@gmail.com>
+Date:   Wed Mar 16 16:51:20 2022 +0200
+
+    uusia tiedostoja
+
+ tiedostoja/file1.txt | 0
+ tiedostoja/file2.txt | 0
+ tiedostoja/file3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit c52c04358de852b3078ddc735e7259d3161d6c6f
+Author: Eero Ranta <eeroranta111@gmail.com>
+Date:   Wed Mar 16 16:43:08 2022 +0200
+
+    lisää muutoksia
+
+ eka.txt      | 6 ++++--
+ kolmas.txt   | 4 +++-
+ tiedosto.txt | 4 ----
+ 3 files changed, 7 insertions(+), 7 deletions(-)
+
+commit 85652f650fc19a31adc0dd26c82d311e36694da0
+Author: Eero Ranta <eeroranta111@gmail.com>
+Date:   Wed Mar 16 16:41:12 2022 +0200
+
+    nimen muutos
+
+ eka.txt | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit ed15bac33f7f25ac6f9105e1c1b1f51e7afa8f4c
+Author: Eero Ranta <eeroranta111@gmail.com>
+Date:   Wed Mar 16 16:40:04 2022 +0200
+
+    toisen tiedoston poisto
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 7ccf95890f301a422f23d809da5593ff0e988ab1
+Author: Eero Ranta <eeroranta111@gmail.com>
+Date:   Wed Mar 16 16:36:55 2022 +0200
+
+    muokkausta
+
+ tiedosto.txt | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+commit 497f62aeaef09e8f523f649c6b33809fc65e9f70
+Author: Eero Ranta <eeroranta111@gmail.com>
+Date:   Wed Mar 16 16:34:59 2022 +0200
+
+    paljon tekstiä
+
+ tiedosto.txt | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 6730103dacab6d7287f58c6e93ccb3be8ae6ddfc
+Author: Eero Ranta <eeroranta111@gmail.com>
+Date:   Wed Mar 16 15:09:50 2022 +0200
+
+    lisäys
+
+ stuff/random.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 3ba3c89abca4b2dad624c6b1becd10feefafedf8
+Author: Eero Ranta <eeroranta111@gmail.com>
+Date:   Wed Mar 16 15:08:19 2022 +0200
+
+    muokkauksia
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 9d2e1d1d185a287e63fd145fc39f06a0f26c6dd6
+Author: Eero Ranta <eeroranta111@gmail.com>
+Date:   Wed Mar 16 15:06:39 2022 +0200
+
+    lisäys
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 063eccc879b5adbffae44791e98d72710942e758
+Author: Eero Ranta <eeroranta111@gmail.com>
+Date:   Wed Mar 16 15:03:35 2022 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 662235479d1807dd5f62518a801d255af161d327
+Author: Eero Ranta <eeroranta111@gmail.com>
+Date:   Wed Mar 16 14:59:41 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
