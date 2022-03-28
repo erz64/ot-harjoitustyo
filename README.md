@@ -11,7 +11,7 @@
 
 [tuntikirjanpito.md](https://github.com/erz64/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 
-[vaatimusmäärittely.md](https://github.com/erz64/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+[vaatimusmaarittely.md](https://github.com/erz64/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
 Ehkä viimeinen muutos!
 
