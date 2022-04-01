@@ -35,9 +35,7 @@
         }
         class Ruutu{
             int sijainti
-            ruudunTyyppi:{
-                aloitusruutu,vankila,sattuma,yhteismaa,asema,laitos,katu
-            }
+            +ruudunTyyppi()
             +whenLandedOn()
             +getNextRuutu()
         }
