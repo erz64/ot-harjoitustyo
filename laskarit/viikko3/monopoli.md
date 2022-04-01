@@ -10,12 +10,15 @@
         Laitos --> Ruutu
         Sattuma --> Ruutu
         Yhteismaa --> Ruutu
+        Vanila --> Ruutu
         Sattuma -- Kortit
         Yhteismaa -- Kortit
         Katu --> Omaisuus
         Laitos --> Omaisuus
         Asema --> Omaisuus
         House --> Katu
+        Omaisuus --> "1" Pelaaja
+        
 
 
         class Peli{
