@@ -18,7 +18,7 @@
         Katu --> Omaisuus
         Laitos --> Omaisuus
         Asema --> Omaisuus
-        House --> Katu
+        House "4" --> "1" Katu
         Omaisuus --> "1" Pelaaja
         
 
