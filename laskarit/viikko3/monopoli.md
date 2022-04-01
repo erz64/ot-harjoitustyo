@@ -10,7 +10,9 @@
         Laitos --> Ruutu
         Sattuma --> Ruutu
         Yhteismaa --> Ruutu
-        Vanila --> Ruutu
+        Vankila --> Ruutu
+        Katu --> Ruutu
+        Asema --> Ruutu
         Sattuma -- Kortit
         Yhteismaa -- Kortit
         Katu --> Omaisuus
