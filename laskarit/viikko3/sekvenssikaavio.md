@@ -20,4 +20,7 @@ sequenceDiagram
     Machine ->> Engine: self._engine.use_energy()
     Engine ->> Machine: self._fuel_tank.consume(10)
     Machine ->> FuelTank: self._fuel_tank.consume(10)
+    FuelTank -->> Machine: 30
+    Machine -->> Engine: 30
+    Engine -->> Main
 ```
