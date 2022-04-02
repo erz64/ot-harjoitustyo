@@ -1,18 +1,28 @@
 
-# Otsikko
+# Avoid the objects
 
-**Tämä on leipätekstiä.**  Tässä voitaisiin kertoa *jostain* mielenkiintoisesta aiheesta.
+Sovellus on peli, jossa pelaaja väistelee ympäriltä tulevia objekteja ja yrittää selvitä mahdollisimman kauan.
 
-> quote
-
-[gitlog.txt](https://github.com/erz64/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
-
-[komentorivi.txt](https://github.com/erz64/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
+## Dokumentaatio
 
 [tuntikirjanpito.md](https://github.com/erz64/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 
 [vaatimusmaarittely.md](https://github.com/erz64/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
-Ehkä viimeinen muutos!
+[changelog.md](https://github.com/erz64/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
 
-Ei ollutkaan!
+## Komentorivitoiminnot
+
+Ohjelman pystyy suorittamaan komennolla:
+
+poetry run invoke start
+
+Testit voidaan suorittaa komennolla:
+
+poetry run invoke test
+
+Testikattavuuden voi saada komennolla:
+
+poetry run invoke coverage-report
+
+
