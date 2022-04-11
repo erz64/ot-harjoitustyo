@@ -21,7 +21,6 @@ class Level:
         colliding = pygame.sprite.spritecollide(
             self.player, self.enemies, False)
         end = not colliding
-        print(end)
         return end
 
     def can_enemy_spawn(self):
