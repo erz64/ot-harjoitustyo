@@ -6,9 +6,9 @@ Sovellus on peli, jossa ohjataan keskellä olevaa objektia hiirellä ja tarkoitu
 
 ## Perusversion tarjoama toiminallisuus
 
-- Keskellä on objekti (objektin ulkonäkö ei tiedossa vielä), jota ohjataan liikuttamalla hiirtä
+- Keskellä on objekti (objektin ulkonäkö ei tiedossa vielä), jota ohjataan liikuttamalla hiirtä (tehty)
 
-- Peli-ikkunan reunoilta lähtee satunnaisessa kulmassa objekteja (ei myöskään tietoa ulkonäöstä), joita pelaajan ohjaaman objektin on tarkoitus väistää
+- Peli-ikkunan reunoilta lähtee satunnaisessa kulmassa objekteja (ei myöskään tietoa ulkonäöstä), joita pelaajan ohjaaman objektin on tarkoitus väistää (tehty)
 
 - Pelissä on päävihollisia, joita pelaajan pitää tuhota, jotta pääsee seuraavalle tasolle.
  
