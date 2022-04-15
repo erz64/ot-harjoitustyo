@@ -11,6 +11,8 @@ Sovellus on peli, jossa pelaaja väistelee ympäriltä tulevia objekteja ja yrit
 
 [changelog.md](https://github.com/erz64/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
 
+[arkkitehtuuri.md](https://github.com/erz64/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
+
 ## Komentorivitoiminnot
 
 Ohjelman pystyy suorittamaan komennolla:
