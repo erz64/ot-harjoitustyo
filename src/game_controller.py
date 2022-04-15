@@ -16,9 +16,12 @@ class GameControl:
             self._display.fill((29, 17, 53))
             self._level.all_sprites.draw(self._display)
             self._level.all_sprites.update()
-            if not self._level.check_collision():
+            if not self._level.check_player_collision():
                 break
+            self._level.check_bullet_collision()
             self._level.spawn_enemies()
+            self._level.spawn_boss()
+            self._level.spawn_bullet()
 
     def _player_inputs(self):
         for event in pygame.event.get():

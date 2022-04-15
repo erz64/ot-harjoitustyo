@@ -14,9 +14,9 @@ class Enemy(pygame.sprite.Sprite):
         self.dir = pygame.Vector2(3000, randint(100, 800))
 
     def update(self):
+        pygame.draw.circle(self.image, (255, 28, 28), (10, 10), 10)
         direction = self.dir - self.pos
         self.pos += direction * self.velocity
         self.rect.center = self.pos
-        pygame.draw.circle(self.image, (255, 28, 28), (10, 10), 10)
         if self.rect.left >= 1700:
             pygame.sprite.Sprite.kill(self)
