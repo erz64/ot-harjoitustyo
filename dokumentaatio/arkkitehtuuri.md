@@ -42,4 +42,4 @@
         Level-->>App: None
         App->>GameControl: Start game
         GameControl-->>App: End game
-```mermaid
+```
