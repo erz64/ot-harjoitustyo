@@ -24,4 +24,4 @@ class TestPlayer(unittest.TestCase):
         self.level.all_sprites.add(self.enemy)
         self.level.enemies.add(self.enemy)
         self.level.all_sprites.update()
-        self.assertEqual(self.level.check_collision(), True)
+        self.assertEqual(self.level.check_player_collision(), True)

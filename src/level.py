@@ -51,7 +51,7 @@ class Level:
     def can_boss_spawn(self):
         if not self.bosses:
             self.boss_cooldown += 1
-        if not self.bosses and self.boss_cooldown >= 300:
+        if not self.bosses and self.boss_cooldown >= 2000:
             self.boss_cooldown = 0
             return True
     
