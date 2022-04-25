@@ -26,7 +26,7 @@
             
         }
 ```
-### Pelin aloitus
+### Pelin kulku
 ```mermaid
     sequenceDiagram
         participant App
