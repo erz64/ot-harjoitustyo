@@ -1,4 +1,3 @@
-from random import randint
 import pygame
 
 
@@ -12,7 +11,7 @@ class Boss(pygame.sprite.Sprite):
         self.rect.y = 300
         self.color = 0
         self.hitpoints = 10
-        
+
     def update(self):
         if self.color > 0:
             self.color -= 1
@@ -25,7 +24,3 @@ class Boss(pygame.sprite.Sprite):
         if self.hitpoints <= 0:
             pygame.sprite.Sprite.kill(self)
         self.color = 5
-        
-
-        
-        

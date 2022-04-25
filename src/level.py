@@ -31,7 +31,7 @@ class Level:
             self.player, self.enemies, False)
         end = not colliding
         return end
-    
+
     def check_bullet_collision(self):
         colliding = pygame.sprite.spritecollide(self.boss, self.bullets, True)
         if colliding:
@@ -54,13 +54,13 @@ class Level:
         if not self.bosses and self.boss_cooldown >= 2000:
             self.boss_cooldown = 0
             return True
-    
+        return False
+
     def spawn_bullet(self):
         if self.can_bullet_spawn():
             bullet = Bullet(self.player.rect.x - 40, self.player.rect.y+5)
             self.all_sprites.add(bullet)
             self.bullets.add(bullet)
-            
 
     def can_bullet_spawn(self):
         self.bullet_cooldown += 1
