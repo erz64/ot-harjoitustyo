@@ -28,18 +28,18 @@
 ```
 ### Pelin aloitus
 ```mermaid
-sequenceDiagram
-    participant App
-    participant Level
-    participant GameControl
-    participant Player
-    participant Boss
-    App->>Level: Initialize level
-    Level->>Player: Initialize player
-    Player-->>Level: None
-    Level->>Boss: Initialize first boss
-    Boss-->>Level: None
-    Level-->>App: None
-    App->>GameControl: Start game
-    GameControl-->>App: End game
+    sequenceDiagram
+        participant App
+        participant Level
+        participant GameControl
+        participant Player
+        participant Boss
+        App->>Level: Initialize level
+        Level->>Player: Initialize player
+        Player-->>Level: None
+        Level->>Boss: Initialize first boss
+        Boss-->>Level: None
+        Level-->>App: None
+        App->>GameControl: Start game
+        GameControl-->>App: End game
 ```mermaid
