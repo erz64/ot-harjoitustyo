@@ -12,4 +12,7 @@
 | 11.4. | 1h   | vaatimuusmäärittelyn muokkausta|
 |       | 1h   | luokkakaavion lisääminen|
 |       | 1h   | projektin tarkistus|
-| yht   | 18h  | |
+| 15.4  | 3h   | lisää toiminnallisuuksia peliin|
+| 16.4  | 2h   | lisää koodausta|
+| 25.4  | 3h   | vähän koodausta ja koodin tarkistelua|
+| yht   | 25h  | |
