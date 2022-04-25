@@ -12,3 +12,8 @@
 - Peliloppuu (peli-ikkuna sulkeutuu), kun pelaaja osuu johonkin näistä Enemy olioista
 - Luotu uusi testi varmistamaan, että pelaajan osuessa johonkin Enemy olioon tämä törmäys eli "collision" tunnistetaan
 
+## Viikko 5
+- Uudet luokat: Boss, Bullet
+- Luokan Boss olio eli päävihollinen syntyy vasempaan pelireunaan, kun aina kun edellisen päävihollisen tuhoutumisesta on kulunut tarpeeksi aikaa
+- Päävihollinen liikkuu satunnaisesti ylös tai alas
+- Pelaajan ohjaamasta objektista lähtee tasaisin välein Bullet luokan olioita eli luoteja kohti vasenta reunaa, jos jokin näistä luodeista osuu pääviholliseen, tämä menetttää elämäpisteitä. Kun elämäpisteet loppuvat, päävihollinen tuhoutuu
