@@ -2,7 +2,6 @@ import os
 import pygame
 
 
-
 class BossAttack(pygame.sprite.Sprite):
     """Sprite class for bosses, inherits the pygame sprite class
 

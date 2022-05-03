@@ -15,4 +15,6 @@
 | 15.4  | 3h   | lisää toiminnallisuuksia peliin|
 | 16.4  | 2h   | lisää koodausta|
 | 25.4  | 3h   | vähän koodausta ja koodin tarkistelua|
-| yht   | 25h  | |
+| 2.5   | 5h   | uusia toiminnalisuuksia ja koodin muokkausta|
+| 3.5   | 6h   | testejä ja koodin kommentointia|
+| yht   | 36h  | |

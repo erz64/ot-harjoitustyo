@@ -17,3 +17,10 @@
 - Luokan Boss olio eli päävihollinen syntyy vasempaan pelireunaan, kun aina kun edellisen päävihollisen tuhoutumisesta on kulunut tarpeeksi aikaa
 - Päävihollinen liikkuu satunnaisesti ylös tai alas
 - Pelaajan ohjaamasta objektista lähtee tasaisin välein Bullet luokan olioita eli luoteja kohti vasenta reunaa, jos jokin näistä luodeista osuu pääviholliseen, tämä menetttää elämäpisteitä. Kun elämäpisteet loppuvat, päävihollinen tuhoutuu
+
+## Viikko 6
+- Uusi luokka: BossAttack
+- Lisätty tippuvia teriä eli luokan BossAttack olioita, kun päävihollinen on elossa
+- Pelaaja ei ammu luoteja ellei päävihollinen ole elossa
+- Lisätty peliin tasoja, aina kun päävihollinen kuolee taso nousee, ja vihollisia syntyy useammin. Taso näytetään vasemmassa yläreunassa.
+- Lisätty paljon uusia testejä testaamaan mm. törmäyksiä ja liikkumista
