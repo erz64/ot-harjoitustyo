@@ -6,15 +6,14 @@
         App "1" --> "1" EventQueue
         App "1" --> "1" Level
         GameControl "1" -- "1" Level
+        EventQueue "1" --> "1" GameControl
         Enemy "*" --|> "*" Sprites
         Player "1" --|> "*" Sprites
         BossAttack "*" --|> "*" Sprites
         Bullet "*" --|> "*" Sprites
-        
         Level "1" --> "*" Sprites
         class App{
-            level
-            game_control
+            
         }
         class GameControl{
 
