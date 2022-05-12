@@ -49,7 +49,7 @@
 ## Tiedostojen tallennus ja luku:
 Kun pelaaja häviää pelin, sovellus tallentaa tiedon saavutetusta tasosta SQLite-tietokantaan.
 
-Tämä tieto luetaan pelaajalle pelin alkuruudussa.
+Pelaajan paras saavutettu taso luetaan pelaajalle pelin alkuruudussa.
 
 ### Tiedostot
 
