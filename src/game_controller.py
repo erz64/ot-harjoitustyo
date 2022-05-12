@@ -53,10 +53,8 @@ class GameControl:
                 break
 
     def _player_inputs(self):
-        """Checks if the game is exited
-
-        Returns:
-            True if it isn't, and False if exited
+        """Checks if the game is exited, or if escape key is pressed,
+        when escape is presses pausing screen function gets called.
         """
         for event in self._event_queue.get():
             if event.type == pygame.QUIT:
@@ -74,7 +72,7 @@ class GameControl:
         self._display.blit(stage, (300, 0))
 
     def main_menu(self):
-        """ Main menu where player can start the game and see highest stage """
+        """ Main menu where player can start the game and see highest stage achieved"""
         button_text = self._font_1.render("Start game!", True, (0, 0, 0))
         highscore = self._font_1.render(
             f"Your highest stage: {self._get_highscores()}", True, (255, 0, 0))
@@ -143,6 +141,9 @@ class GameControl:
         return stage
 
     def _pausing_screen(self):
+        """Allows player to pause the screen,
+        pressing ESC again will resume the game
+        """
         paused_text = self._font_2.render("Game paused. Press ESC again to continue", True, (255, 0, 0))
         self._display.fill((29, 17, 53))
         self._display.blit(paused_text, [270, 300])
