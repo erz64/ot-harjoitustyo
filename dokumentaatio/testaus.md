@@ -6,5 +6,5 @@ Peliä on testattu automaattisillä unittest testeillä, sekä myös manuaalises
 
 Pelin haarautumakattavuus on 74 %:
 
-![](./kuvat/testikattavuus.png)
+![](./kuvat/testi_kattavuus.png)
 
