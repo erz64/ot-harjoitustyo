@@ -2,7 +2,7 @@
 
 ## Sovelluksen tarkoitus
 
-Sovellus on peli, jossa ohjataan keskellä olevaa objektia hiirellä ja tarkoituksena on väistellä satunnaisesti reunoilta tulevia objekteja.
+Sovellus on peli, jossa ohjataan keskellä olevaa objektia hiirellä. Tarkoituksena on väistellä satunnaisesti reunoilta tulevia objekteja, ja tuhota päävihollinen, joka ilmestyy jokaisen tason lopussa, päästääkseen seuraavalle tasolle.
 
 ## Perusversion tarjoama toiminallisuus
 

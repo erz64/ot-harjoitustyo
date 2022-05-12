@@ -1,4 +1,5 @@
 from random import randint
+import os
 import pygame
 
 
@@ -6,6 +7,8 @@ class Boss(pygame.sprite.Sprite):
     """Sprite class for bosses, inherits the pygame sprite class
 
     Attributes:
+        boss_image: loads the original image for the boss
+        damaged_boss: changes the original boss image to red when damaged
         image: initializes the surface for the boss
         rect: gets the hitboxes for the rectangle
         rect.x: x-coordinate of the rectangle
@@ -20,8 +23,13 @@ class Boss(pygame.sprite.Sprite):
     def __init__(self):
         """Class' constuctor which initializes class variables"""
         super().__init__()
-        self.image = pygame.Surface([100, 300])
-        self.image.fill((0, 0, 0))
+        dirname = os.path.dirname(__file__)
+        super().__init__()
+        self.boss_image = pygame.image.load(os.path.join(
+            dirname, "..", "assets", "boss.png"))
+        self.damaged_boss_image = pygame.image.load(os.path.join(
+            dirname, "..", "assets", "damaged_boss.png"))
+        self.image = self.boss_image
         self.rect = self.image.get_rect()
         self.rect.x = 0
         self.rect.y = 300
@@ -35,10 +43,10 @@ class Boss(pygame.sprite.Sprite):
         """Updates the boss, including movement and changing the color"""
         if self.color > 0:
             self.color -= 1
-            self.image.fill((255, 28, 28))
+            self.image = self.damaged_boss_image
         if self.color == 0:
-            self.image.fill((0, 0, 0))
-        if self.move_cooldown > 100 and self.move_duration < 100:
+            self.image = self.boss_image
+        if self.move_cooldown > 100 and self.move_duration < 150:
             if self.move_duration == 0:
                 random = randint(0, 1)
                 if random == 0:
@@ -60,6 +68,6 @@ class Boss(pygame.sprite.Sprite):
 
     def take_hit(self):
         """Reduces hitpoints of the boss
-        and changes the coloring timer to 5 so player sees when the boss is hit"""
+        and changes the coloring timer to 10 so player sees when the boss is hit"""
         self.hitpoints -= 1
-        self.color = 5
+        self.color = 10

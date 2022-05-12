@@ -17,4 +17,6 @@
 | 25.4  | 3h   | vähän koodausta ja koodin tarkistelua|
 | 2.5   | 5h   | uusia toiminnalisuuksia ja koodin muokkausta|
 | 3.5   | 6h   | testejä ja koodin kommentointia|
-| yht   | 36h  | |
+| 10.5  | 5h   | tietokannan lisäystä, alku- ja loppuruudut|
+| 11.5  | 5h   | testejä, koodin siistimistä, assettejen muokkausta|  
+| yht   | 45h  | |

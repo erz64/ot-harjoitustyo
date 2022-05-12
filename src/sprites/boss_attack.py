@@ -22,7 +22,7 @@ class BossAttack(pygame.sprite.Sprite):
         dirname = os.path.dirname(__file__)
         super().__init__()
         self.image = pygame.image.load(os.path.join(
-            dirname, "..", "assets", "blade.png"))
+            dirname, "..", "assets", "attack.png"))
         self.rect = self.image.get_rect()
         self.rect.x = x
         self.rect.y = 0
