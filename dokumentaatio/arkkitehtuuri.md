@@ -1,3 +1,5 @@
+# Arkkitehtuurikuvaus
+
 ```mermaid
     classDiagram
         App "1" --> "1" GameControl
@@ -26,7 +28,7 @@
             
         }
 ```
-### Pelin kulku
+## Pelin kulku
 ```mermaid
     sequenceDiagram
         participant App
@@ -43,3 +45,13 @@
         App->>GameControl: Start game
         GameControl-->>App: End game
 ```
+
+## Tiedostojen tallennus ja luku:
+Kun pelaaja häviää pelin, sovellus tallentaa tiedon saavutetusta tasosta SQLite-tietokantaan.
+
+Tämä tieto luetaan pelaajalle pelin alkuruudussa.
+
+### Tiedostot
+
+Peli tallentaa tiedot konfiguraatiotiedosto .env määrittelemään tietokantatiedostoon.
+
