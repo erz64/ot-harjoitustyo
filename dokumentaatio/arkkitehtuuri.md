@@ -3,10 +3,14 @@
 ```mermaid
     classDiagram
         App "1" --> "1" GameControl
+        App "1" --> "1" EventQueue
         App "1" --> "1" Level
         GameControl "1" -- "1" Level
         Enemy "*" --|> "*" Sprites
         Player "1" --|> "*" Sprites
+        BossAttack "*" --|> "*" Sprites
+        Bullet "*" --|> "*" Sprites
+        
         Level "1" --> "*" Sprites
         class App{
             level
@@ -27,6 +31,16 @@
         class Player{
             
         }
+        class BossAttack{
+        
+        }
+        class Bullet{
+        
+        }
+        class EventQueue{
+        
+        }
+        
 ```
 ## Pelin kulku
 ```mermaid
