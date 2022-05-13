@@ -18,5 +18,7 @@
 | 2.5   | 5h   | uusia toiminnalisuuksia ja koodin muokkausta|
 | 3.5   | 6h   | testejä ja koodin kommentointia|
 | 10.5  | 5h   | tietokannan lisäystä, alku- ja loppuruudut|
-| 11.5  | 5h   | testejä, koodin siistimistä, assettejen muokkausta|  
-| yht   | 45h  | |
+| 11.5  | 5h   | testejä, koodin siistimistä, assettejen muokkausta|
+| 12.5  | 5h   | testejä ja dokumentointia|
+| 13.5  | 2h   | dokumentointia ja viimeistelyä|
+| yht   | 55h  | |
