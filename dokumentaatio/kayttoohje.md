@@ -19,4 +19,4 @@ Peli-ikkunassa aukeaa alkuruutu, jossa näkee parhaimman saavutetun tason ja nap
 
 Liikuta vihreää palloa hiirellä ja väistele muita objekteja, kun päävihollinen syntyy yritä tuhota se päästäksesi seuraavalle tasolle.
 
-Jos haluat pitää tauon pelin aikana paina Escape näippäintä.
+Jos haluat pitää tauon pelin aikana paina Escape näppäintä.
