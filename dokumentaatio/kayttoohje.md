@@ -9,7 +9,7 @@ poetry install
 ```
 2. Alusta tietokannat komennolla
 ```
-poetry run invokte build
+poetry run invoke build
 ```
 3. Käynnistä peli komennolla:
 ```
