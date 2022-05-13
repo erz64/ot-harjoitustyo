@@ -43,7 +43,8 @@
         
 ```
 ## Pelin kulku
-Ohjelman toimiminen, siitä asti kun pelaaja syöttää komennon poetry run invoke start, siihen asti kun pelaaja sulkee ohjelman.
+Ohjelman toimiminen, siitä asti kun pelaaja syöttää komennon poetry run invoke start, siihen asti kun pelaaja sulkee ohjelman:
+Kun pelaaja suorittaa tämän komennon, app tiedosto alustaa Level luokan, joka taas alustaa pelaajan ja ensimmäisen päävihollisen. Tätä level luokkaa käytetään parametrina app tiedoston alustaessa GameControl luokan. App tämän jälkeen kutsuu GameControl main_menu funktiota, jolloin peli lähtee käyntiin. Peli on käynnissä kunnes pelaaja sulkee sen.
 ```mermaid
     sequenceDiagram
         participant App
