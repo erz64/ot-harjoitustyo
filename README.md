@@ -1,9 +1,11 @@
 
-# Avoid the objects
+# Dodge the objects
 
 Sovellus on peli, jossa pelaaja väistelee ympäriltä tulevia objekteja ja yrittää selvitä mahdollisimman kauan.
 
 ## Dokumentaatio
+
+[kayttoohje.md](https://github.com/erz64/ot-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
 
 [tuntikirjanpito.md](https://github.com/erz64/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 
@@ -12,6 +14,8 @@ Sovellus on peli, jossa pelaaja väistelee ympäriltä tulevia objekteja ja yrit
 [changelog.md](https://github.com/erz64/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
 
 [arkkitehtuuri.md](https://github.com/erz64/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
+
+[testaus.md](https://github.com/erz64/ot-harjoitustyo/blob/master/dokumentaatio/testaus.md)
 
 ## Asennus
 1. Asenna riippuvuudet komennolla:
