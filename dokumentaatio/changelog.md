@@ -24,3 +24,9 @@
 - Pelaaja ei ammu luoteja ellei päävihollinen ole elossa
 - Lisätty peliin tasoja, aina kun päävihollinen kuolee taso nousee, ja vihollisia syntyy useammin. Taso näytetään vasemmassa yläreunassa.
 - Lisätty paljon uusia testejä testaamaan mm. törmäyksiä ja liikkumista
+
+## Viikko 7
+- Lisätty tietokantatiedosto tallentamaan pelaajan saavutettu taso
+- Muutettu Boss-spriten ja BossAttack-spriten ulkonäköä
+- Lisätty alku- ja loppuruutu
+- Lisätty testejä mm. GameControl luokan
