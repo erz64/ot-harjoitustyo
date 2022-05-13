@@ -1,13 +1,12 @@
 # Käyttöohje
 
-Pelataksesi peliä lataa viimeisin lähdekoodi valitsemalla Assets-osion alta Source code.
+Pelataksesi peliä lataa viimeisimmän [releasen](https://github.com/erz64/ot-harjoitustyo/releases/tag/viikko7) lähdekoodi valitsemalla Assets-osion alta Source code.
 
 ## Pelin käynnistys
 1. Asenna riippuvuudet komennolla:
 ```bash
 poetry install
 ```
-
 2. Alusta tietokannat komennolla
 ```
 poetry run invokte build
