@@ -13,22 +13,37 @@ Sovellus on peli, jossa pelaaja väistelee ympäriltä tulevia objekteja ja yrit
 
 [arkkitehtuuri.md](https://github.com/erz64/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 
-[viikko5_release](https://github.com/erz64/ot-harjoitustyo/releases/tag/viikko5)
-
-[viikko6_release](https://github.com/erz64/ot-harjoitustyo/releases/tag/viikko6)
+## Asennus
+1. Asenna riippuvuudet komennolla:
+```bash
+poetry install
+```
+2. Alusta tietokannat komennolla
+```
+poetry run invokte build
+```
+3. Käynnistä peli komennolla:
+```
+poetry run invoke start
+```
 
 ## Komentorivitoiminnot
 
 Ohjelman pystyy suorittamaan komennolla:
-
+```bash
 poetry run invoke start
-
+```
 Testit voidaan suorittaa komennolla:
-
+```
 poetry run invoke test
-
+```
 Testikattavuuden voi saada komennolla:
-
+```
 poetry run invoke coverage-report
-
+```
+### Pylint
+Koodin laadun tarkistus voidaan suorittaa komennolla:
+```
+poetry run invoke lint
+```
 
