@@ -1,5 +1,6 @@
 # Arkkitehtuurikuvaus
 
+## Pelin logiikka
 ```mermaid
     classDiagram
         App "1" --> "1" GameControl
@@ -42,6 +43,7 @@
         
 ```
 ## Pelin kulku
+Ohjelman toimiminen, siitä asti kun pelaaja syöttää komennon poetry run invoke start, siihen asti kun pelaaja sulkee ohjelman.
 ```mermaid
     sequenceDiagram
         participant App
