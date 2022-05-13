@@ -1,7 +1,7 @@
 
 # Dodge the objects
 
-Sovellus on peli, jossa pelaaja väistelee ympäriltä tulevia objekteja ja yrittää selvitä mahdollisimman kauan.
+Sovellus on peli, jossa pelaaja väistelee ympäriltä tulevia objekteja ja yrittää selvitä mahdollisimman kauan. Pelaajan on myös tarkoitus tuhota päävihollinen, joka ilmestyy jokaisen tason lopussa, edetäkseen seuraavalle tasolle.
 
 ## Dokumentaatio
 
